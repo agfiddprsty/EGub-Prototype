@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">E-Gub</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Polling</string>
+    <string name="title_activity_login">Login</string>
+    z
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main3">Pemilihan</string>
+    <string name="title_activity_signin">Sign in</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_logi">Login</string>
+    <string name="title_activity_home">Berita</string>
+    <string name="title_activity_polling">Polling</string>
+    <string name="title_activity_abou">About</string>
+    <string name="title_activity_polli">Polling</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_log">Login</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_lo">Login</string>
+    <string name="title_activity_settin">Setting</string>
+    <string name="title_activity_umah">Home</string>
+    <string name="title_activity_laporan">Pengaduan</string>
+    <string name="title_activity_pengaduan">Pengaduan</string>
+    <string name="title_activity_lapor">Lapor</string>
+
+</resources>

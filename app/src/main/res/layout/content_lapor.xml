@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.timeweueh.egub.e_gub.Lapor"
+    tools:showIn="@layout/app_bar_lapor">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="263dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="132dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="116dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginStart="115dp"
+        android:text="Kirim"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="336dp"
+        android:layout_height="620dp"
+        app:srcCompat="@drawable/inifixepol"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="-61dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="262dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="1dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="262dp"
+        android:layout_height="308dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="204dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

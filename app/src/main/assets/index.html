@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>3-Column Photo Grid with Skewed Captions</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic);
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+figure {
+	position:relative;
+	width:100%;
+	min-height:160px;
+	display:block;
+	float:left;
+	overflow:hidden;
+	margin:10px 0;
+	box-shadow:inset 0px 2px 3px rgba(0,0,0,.2);
+	-webkit-transition: all .15s ease-in-out;
+}
+.ocean {
+	background-color:#000;
+	background-image: url("http://rumahpemilu.org/wp-content/uploads/2017/09/20170929-elsam-384x220.jpg");
+	background-size:cover;
+	background-position:center center;
+}
+
+.ocean2 {
+	background-color:#000;
+	background-image: url("http://rumahpemilu.org/wp-content/uploads/2016/10/IlustrasiJuni-Okt-14-384x220.jpg");
+	background-size:cover;
+	background-position:center center;
+}
+
+.ocean3 {
+	background-color:#000;
+	background-image: url("http://rumahpemilu.org/wp-content/uploads/2016/11/Paket_5_gambar_3-04-384x220.jpg");
+	background-size:cover;
+	background-position:center center;
+}
+
+.ocean4 {
+	background-color:#000;
+	background-image: url("https://i.imgur.com/KIW5eEx.jpg");
+	background-size:cover;
+	background-position:center center;
+}
+
+.ocean5 {
+	background-color:#000;
+	background-image: url("https://i.imgur.com/KIW5eEx.jpg");
+	background-size:cover;
+	background-position:center center;
+}
+
+.ocean6 {
+	background-color:#000;
+	background-image: url("https://i.imgur.com/KIW5eEx.jpg");
+	background-size:cover;
+	background-position:center center;
+}
+
+.ocean7 {
+	background-color:#000;
+	background-image: url("https://i.imgur.com/KIW5eEx.jpg");
+	background-size:cover;
+	background-position:center center;
+}
+
+.ocean8 {
+	background-color:#000;
+	background-image: url("https://i.imgur.com/KIW5eEx.jpg");
+	background-size:cover;
+	background-position:center center;
+}
+
+
+
+figcaption {
+	display:block;
+	float:left;
+	position:absolute;
+	top:0;
+	left:0;
+	color:#FFF;
+	font-size:15px;
+	line-height:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	background-color:rgba(0,0,0,.7);
+	width:55%;
+	height:100%;
+	margin:0 0 0 -20px;;
+	padding:20px;
+	padding-left:40px;
+	-webkit-transform: skew(-10deg);
+       -moz-transform: skew(-10deg);
+         -o-transform: skew(-10deg);
+	-webkit-transition: all .15s ease-in-out;
+}
+figcaption a, figcaption a:hover {
+	color:#FFF;
+	text-decoration:none;
+}
+figcaption strong {
+	display:block;
+	word-wrap: normal;
+	-webkit-transform: skew(10deg);
+       -moz-transform: skew(10deg);
+         -o-transform: skew(10deg);
+}
+figcaption strong:before {
+	content:" ";
+	border-top:solid 3px rgba(211,29,26,1);
+	width:140%;
+	display:block;
+	clear:both;
+	margin-bottom:20px;
+	-webkit-transition: all .15s ease-in-out;
+}
+
+/* HOVERS */
+figure:hover figcaption {
+	background-color:rgba(211,29,26,.9);
+	-webkit-transition: all .15s ease-in-out;
+}
+figure:hover figcaption strong:before {
+	width:200%;
+	border-color:#FFF;
+	-webkit-transition: all .15s ease-in-out;
+}
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+	<div class="row">
+		<div class="col-md-4 col-sm-6">
+			<figure class="ocean">
+				<figcaption>
+					<a href="">
+					<strong>Cara Mengatasi Berita Hoax dalam pemilu</strong>
+					</a>	
+				</figcaption>
+			</figure>
+		</div>
+
+		<div class="col-md-4 col-sm-6">
+			<figure class="ocean2">
+				<figcaption>
+					<strong>Akun Penyebar Berita Hoax di Pilkada 2018 Akan Dilaporkan ke Kepolisian</strong>
+				</figcaption>
+			</figure>
+		</div>
+
+		<div class="col-md-4 col-sm-6">
+			<figure class="ocean3">
+				<figcaption>
+					<strong>Mewujud Damai di Pilkada</strong>
+				</figcaption>
+			</figure>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<figure class="ocean">
+				<figcaption>
+					<a href="">
+					<strong>Air</strong>
+					</a>	
+				</figcaption>
+			</figure>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<figure class="ocean4">
+				<figcaption>
+					<strong>Freight Forwarder/ Export Compliance</strong>
+				</figcaption>
+			</figure>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<figure class="ocean5">
+				<figcaption>
+					<strong>Projects/ Specialized<br>Cargo</strong>
+				</figcaption>
+			</figure>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<figure class="ocean6">
+				<figcaption>
+					<a href="">
+					<strong>Surface</strong>
+					</a>	
+				</figcaption>
+			</figure>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<figure class="ocean7">
+				<figcaption>
+					<strong>Other Regulatory and Compliance Services</strong>
+				</figcaption>
+			</figure>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<figure class="ocean8">
+				<figcaption>
+					<strong>Warehousing and Distribution</strong>
+				</figcaption>
+			</figure>
+		</div>
+	</div>
+</div>
+  <script src='https://raw.githubusercontent.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js'></script>
+
+  
+
+</body>
+
+</html>

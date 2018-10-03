@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "485296432082",
+    "firebase_url": "https://pilgub-d113c.firebaseio.com",
+    "project_id": "pilgub-d113c",
+    "storage_bucket": "pilgub-d113c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485296432082:android:fea29f3a2a53c100",
+        "android_client_info": {
+          "package_name": "com.timeweueh.egub.e_gub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485296432082-82moken8h2p0stc0hbuqp7ece3g836da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlSw8LBHqJ7uaTIXyglECxQUjMYlW4Iz0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
